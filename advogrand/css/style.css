@@ -1,0 +1,1170 @@
+@font-face {
+  font-family: 'ProximaNova_light';
+  src: url('../fonts/ProximaNova-Light.eot');
+  src: url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Light.woff2') format('woff2'), url('../fonts/ProximaNova-Light.woff') format('woff'), url('../fonts/ProximaNova-Light.ttf') format('truetype'), url('../fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'ProximaNova_light', sans-serif;
+  color: #1c1c1c;
+}
+body a {
+  text-decoration: underline;
+}
+body a:hover {
+  cursor: pointer;
+}
+button,
+input {
+  border: none;
+  outline: none;
+}
+button:focus,
+input:focus,
+a:focus,
+select:focus,
+textarea:focus,
+div:focus {
+  outline: none;
+}
+.indent {
+  padding: 10rem 0;
+}
+.header h2 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 8rem;
+}
+
+.nav-bar {
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  top: 0;
+  z-index: 2;
+  border-bottom: 1px solid #e8e8e8;
+}
+.nav-bar p {
+  font-family: 'ProximaNova_bold', sans-serif;
+  margin: 0;
+}
+.nav-bar a {
+  display: inline-block;
+  text-decoration: none;
+  color: #1c1c1c;
+}
+.nav-bar a:hover {
+  color: #e50000;
+}
+.nav-bar a.active {
+  color: #e50000;
+}
+.nav-bar .nav-btn {
+  padding: 0.5rem 2rem;
+  background: linear-gradient(to bottom, #c11717, #e42626);
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+.nav-bar .nav-btn:hover {
+  background: linear-gradient(to top, #c11717, #e42626);
+}
+
+main {
+  margin-top: 5rem;
+  width: 100%;
+}
+main .main-header {
+  padding: 1rem 0;
+  background-color: #ffffff;
+}
+main .main-header-logo {
+  height: 4rem;
+  width: 19rem;
+  margin: auto 0;
+}
+main .main-header-logo img {
+  height: 100%;
+  width: auto;
+}
+main .main-header-text {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+main .main-header-text p {
+  line-height: 90%;
+}
+main .main-header-phone {
+  font-family: 'ProximaNova_bold', sans-serif;
+  margin-top: 0.8rem;
+  font-size: 1.8rem;
+}
+main .main-header-phone p {
+  line-height: 90%;
+}
+main .main-header-app-android,
+main .main-header-app-apple {
+  display: inline-block;
+}
+main .main-header-app-android .second,
+main .main-header-app-apple .second {
+  display: none;
+}
+main .main-header-app-android:hover .first {
+  display: none;
+}
+main .main-header-app-android:hover .second {
+  display: inline-block;
+}
+main .main-header-app-apple:hover .first {
+  display: none;
+}
+main .main-header-app-apple:hover .second {
+  display: inline-block;
+}
+main .main-content {
+  background: url(../img/main/main-bg.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 13rem 0;
+}
+main .main-content-middle {
+  color: #ffffff;
+}
+main .main-content-middle h1 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 3.2rem;
+  margin-bottom: 6.5rem;
+}
+main .main-content-middle p {
+  font-size: 2.4rem;
+  margin-bottom: 6.5rem;
+}
+.main-btn {
+  padding: 1.7rem 2.5rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.7rem;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #c11717, #e42626);
+  border-radius: 5px;
+}
+.main-btn:hover {
+  color: #ffffff;
+  background: linear-gradient(to top, #c11717, #e42626);
+}
+
+.service {
+  margin: 10rem 0 1rem 0;
+  background-color: #ffffff;
+}
+.service-content-block {
+  margin-bottom: 9rem;
+}
+.service-content-block-img {
+  padding-right: 1rem;
+}
+.service-content-block-text {
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
+
+.information {
+  background: url(../img/information/bg-about.jpg) center center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.information-text {
+  margin-bottom: 8.5rem;
+}
+.information-text p {
+  font-size: 1.6rem;
+}
+.information-facts h3 {
+  margin-bottom: 3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 4.8rem;
+}
+.information-facts h3 .information-facts-item {
+  font-size: 2.5rem;
+}
+.information-facts p {
+  font-size: 1.6rem;
+}
+
+.how {
+  background-color: #f5f5f5;
+}
+.how-content-block-image {
+  height: 9rem;
+  width: 100%;
+  position: relative;
+  margin-bottom: 5rem;
+}
+.how-content-block-image img {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.how-content-block p {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+.how-content-block-third {
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+
+.advantage {
+  background-color: #ffffff;
+}
+.advantage-content-left {
+  font-size: 1.4rem;
+}
+.advantage-content-left-table-second {
+  background-color: #26b83a;
+}
+.advantage-content-left-table td {
+  height: 4.7rem;
+}
+.advantage-content-left thead {
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.advantage-content-right {
+  font-size: 1.6rem;
+}
+.advantage-content-right h3 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+.advantage-content-right-item {
+  display: flex;
+}
+.advantage-content-right-item span {
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.advantage-content-right-item p {
+  flex-grow: 1;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.advantage-btn {
+  width: 95%;
+}
+
+.free {
+  background: url(../img/free/bg-free.jpg) center center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.free-header + p,
+.free-header + p + p {
+  margin-bottom: 3rem;
+}
+.free-header + p + p + p {
+  margin-bottom: 0;
+}
+.free p {
+  position: relative;
+  font-size: 1.8rem;
+  padding-left: 3.5rem;
+}
+.free p span {
+  display: block;
+  position: absolute;
+  left: 0;
+  font-family: 'ProximaNova_bold', sans-serif;
+  color: #ff5a5a;
+}
+.free a {
+  display: block;
+}
+.free .android {
+  margin-bottom: 3rem;
+}
+
+.scores {
+  background-color: #f5f5f5;
+}
+.scores .scores-content nav a {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.4rem;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid #f5f5f5;
+  padding: 0.5rem;
+}
+.scores .scores-content nav a:hover {
+  color: #e50000;
+}
+.scores .scores-content-list-block {
+  margin-top: 8rem;
+}
+.scores .scores-content-list-block .scores-slider {
+  padding: 0 4rem;
+}
+.scores .scores-content-list-block .scores-slider-block img {
+  width: 27rem;
+  height: 18rem;
+  margin: 0 auto;
+}
+.scores .scores-content-list-block .scores-slider-block p {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.scores .scores-content-list-block .scores-slider-block a {
+  font-size: 1.3rem;
+  color: #1c1c1c;
+  text-decoration: none;
+}
+.scores .scores-content-list-block .scores-slider-block a:hover {
+  color: #e50000;
+  text-decoration: underline;
+}
+.scores-left {
+  position: absolute;
+  left: 0;
+  top: 38%;
+  width: 2rem;
+  height: 1.4rem;
+  background: url(../img/scores/prev.png) center center no-repeat;
+  background-size: cover;
+}
+.scores-left:hover {
+  width: 2rem;
+  height: 1.4rem;
+  background: url(../img/scores/prev-hover.png) center center no-repeat;
+  background-size: cover;
+}
+.scores-right {
+  position: absolute;
+  right: 0;
+  top: 38%;
+  width: 2rem;
+  height: 1.4rem;
+  background: url(../img/scores/next.png) center center no-repeat;
+  background-size: cover;
+}
+.scores-right:hover {
+  width: 2rem;
+  height: 1.4rem;
+  background: url(../img/scores/next-hover.png) center center no-repeat;
+  background-size: cover;
+}
+
+.partners {
+  background-color: #ffffff;
+}
+.partners .partners-content-slider {
+  padding: 0 4rem;
+}
+.partners .partners-content-slider-block {
+  position: relative;
+  height: 20rem;
+}
+.partners .partners-content-slider-block span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #26b83a;
+  color: #ffffff;
+  text-align: center;
+  height: 19rem;
+  opacity: 0;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  transition: 0.4s;
+}
+.partners .partners-content-slider-block img {
+  margin: 1.5rem auto;
+  width: 18rem;
+  height: 11.4rem;
+}
+.partners .partners-content-slider-block p {
+  text-decoration: underline;
+  text-align: center;
+}
+.partners .partners-content-slider-block:hover span {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.choose {
+  background-color: #f5f5f5;
+}
+.choose .choose-header {
+  color: #1c1c1c;
+}
+.choose .choose-header h2 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.choose .choose-header h2 + p {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+}
+.choose .choose-header .choose-header-free {
+  display: inline-block;
+  position: relative;
+  bottom: -4rem;
+  font-size: 1.6rem;
+}
+.choose .choose-content nav {
+  margin-bottom: 4rem;
+  text-align: right;
+}
+.choose .choose-content nav a {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.4rem;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid #f5f5f5;
+  border-radius: 0.5rem;
+}
+.choose .choose-content nav a:hover {
+  color: #e50000;
+}
+.choose .choose-content-list-block {
+  background-color: #ffffff;
+}
+.choose .choose-content-list-block h3 {
+  font-size: 2rem;
+}
+.choose .choose-content-list-block td {
+  font-size: 1.1rem;
+  padding: 0.8rem 0;
+}
+.choose .choose-content-list-block table {
+  border-bottom: 1px solid #e8e8e8;
+}
+.choose .choose-content-list-block p {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+.choose .choose-content-list-block p .price-year {
+  font-size: 2.4rem;
+}
+.choose .choose-content-list-block button {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  color: #ffffff;
+  padding: 1.2rem 0;
+  width: 75%;
+  border-radius: 0.5rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  background-color: #9a9a9a;
+}
+.choose .choose-content-list-block .personal-btn {
+  background: linear-gradient(to top, #c11717, #e42626);
+  margin-bottom: 1.5rem;
+}
+.choose .choose-content-list-block .personal-btn:hover {
+  box-shadow: 0 0 2rem #e42626;
+}
+.choose .choose-content-list-block .family-btn {
+  background: linear-gradient(to top, #008e00, #00a300);
+  margin-bottom: 1.5rem;
+}
+.choose .choose-content-list-block .family-btn:hover {
+  box-shadow: 0 0 2rem #00a300;
+}
+.choose .choose-content-list-block .business-btn {
+  background: linear-gradient(to top, #02388f, #001c67);
+  margin-bottom: 1.5rem;
+}
+.choose .choose-content-list-block .business-btn:hover {
+  box-shadow: 0 0 2rem #001c67;
+}
+.choose .choose-content-list-block-column-compare {
+  position: relative;
+  padding: 3rem;
+  min-height: 110rem;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+}
+.choose .choose-content-list-block-column-compare h3 {
+  text-align: center;
+}
+.choose .choose-content-list-block-column-compare img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 3rem 0;
+}
+.choose .choose-content-list-block-column-compare-bottom {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 5rem;
+}
+.choose .choose-content-list-block-price-item {
+  background-color: #ffffff;
+  padding: 4rem;
+  border: 1px solid #e8e8e8;
+}
+.choose .choose-content-list-block-price-item h3 {
+  margin-bottom: 3rem;
+}
+.bold-block {
+  font-family: 'ProximaNova_bold', sans-serif;
+  display: block;
+}
+
+.contacts {
+  background-color: #f5f5f5;
+  padding-top: 8rem;
+}
+.contacts .contacts-within {
+  background: linear-gradient(to right, #f5f5f5 45%, #ffffff 45%);
+}
+.contacts .contacts-within-content-left {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+.contacts .contacts-within-content-left p {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+.contacts .contacts-within-content-left label {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+.contacts .contacts-within-content-left input {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  border: 1px solid #e8e8e8;
+}
+.contacts .contacts-within-content-left textarea {
+  padding: 1rem 2rem;
+  border: 1px solid #e8e8e8;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.contacts .contacts-within-content-left button {
+  margin-top: 3rem;
+  width: 100%;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #c11717, #e42626);
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.contacts .contacts-within-content-left button + p {
+  position: relative;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.contacts .contacts-within-content-right {
+  margin-top: 6rem;
+}
+.contacts .contacts-within-content-right-header {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.contacts .contacts-within-content-right-info {
+  font-size: 1.9rem;
+  margin-bottom: 2.5rem;
+}
+
+.bottom {
+  background-color: #1c1c1c;
+}
+.bottom-content img {
+  display: block;
+  margin: 0 auto;
+}
+
+.background .popup .popup-content {
+  padding: 3rem 7.5rem;
+  position: relative;
+}
+.background .popup .popup-content h5 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.background .popup .popup-content label {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.background .popup .popup-content input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.5rem;
+}
+.background .popup .popup-content textarea {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 0.5rem;
+}
+.background .popup .popup-content textarea + button {
+  background: linear-gradient(to bottom, #c11717, #e42626);
+  width: 100%;
+  padding: 2.2rem 0;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.background .popup .popup-content input + button {
+  background: linear-gradient(to bottom, #c11717, #e42626);
+  width: 100%;
+  padding: 2.2rem 0;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.background .popup .popup-content p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.background .popup .popup-content .close-button {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+}
+.background .popup .popup-content .close-button span {
+  font-size: 4.6rem;
+}
+
+.advantage-popup {
+  width: 70rem;
+}
+.advantage-popup-content {
+  position: relative;
+  padding: 2.5rem 3rem;
+  font-family: 'ProximaNova_light', sans-serif;
+}
+.advantage-popup-content-close-button {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  font-size: 3.6rem;
+  z-index: 10;
+}
+.advantage-popup-content-left h5 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+.advantage-popup-content-left img {
+  margin-bottom: 2.5rem;
+  width: 29rem;
+  height: 13rem;
+}
+.advantage-popup-content-left p {
+  font-size: 1.6rem;
+  line-height: 130%;
+  font-family: 'ProximaNova_light', sans-serif;
+}
+.advantage-popup-content-right {
+  font-family: 'ProximaNova_light', sans-serif;
+}
+.advantage-popup-content-right label {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+.advantage-popup-content-right input {
+  display: block;
+  font-size: 1.4rem;
+  padding: 1.5rem;
+  border: 1px solid #9a9a9a;
+  border-radius: 5px;
+  width: 100%;
+}
+.advantage-popup-content-right button {
+  display: block;
+  margin: 3rem auto 0 auto;
+  padding: 1.7rem 2.5rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.7rem;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #c11717, #e42626);
+  border-radius: 5px;
+}
+.advantage-popup-content-right button:hover {
+  color: #ffffff;
+  background: linear-gradient(to top, #c11717, #e42626);
+}
+.advantage-popup-content-lower {
+  font-size: 1.4rem;
+  font-family: 'ProximaNova_light', sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .nav-bar-row-advantage {
+    display: none;
+  }
+  .nav-bar-row-scores {
+    display: none;
+  }
+  .nav-bar-row-partners {
+    display: none;
+  }
+
+  .advantage-popup-content-left img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  
+  .choose .choose-content-list-block-column-compare {
+    min-height: 127rem;
+  }
+  .choose .choose-content-list-block-price-item h3 {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .choose .choose-content-list-block-price-item img {
+    display: block;
+    margin: 0 auto 2rem auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .indent {
+    padding: 3rem 0;
+  }
+  .header h2 {
+    font-family: 'ProximaNova_bold', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+  }
+ 
+  .nav-bar-row-how {
+    display: none;
+  }
+  .nav-bar-row-advantage {
+    display: none;
+  }
+  .nav-bar-row-scores {
+    display: none;
+  }
+  .nav-bar-row-partners {
+    display: none;
+  }
+  
+  main .main-header-logo {
+    margin: 0 auto;
+  }
+  main .main-header-phone p {
+    text-align: center;
+  }
+  main .main-header-app {
+    display: flex;
+  }
+  main .main-header-app-android {
+    flex-grow: 1;
+    text-align: right;
+  }
+  main .main-header-app-apple {
+    flex-grow: 1;
+  }
+  main .main-content {
+    padding: 10rem 0;
+  }
+  main .main-content-middle h1 {
+    font-family: 'ProximaNova_bold', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 4.5rem;
+  }
+  main .main-content-middle p {
+    font-size: 1.8rem;
+    margin-bottom: 4.5rem;
+  }
+  
+  .service {
+    margin: 5rem 0 1rem 0;
+  }
+  .service-content-block {
+    margin-bottom: 6rem;
+  }
+  .service-content-block-img {
+    padding-right: 1rem;
+  }
+  .service-content-block-text {
+    padding-left: 1rem;
+    font-size: 1.6rem;
+  }
+  
+  .information-text {
+    margin-bottom: 4rem;
+  }
+  .information-text p {
+    font-size: 1.6rem;
+  }
+  .information-facts h3 {
+    margin-bottom: 2rem;
+    font-size: 3.8rem;
+  }
+  
+  .advantage-content-right {
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  .advantage-content-right h3 {
+    text-align: center;
+  }
+  .advantage-content-right-item {
+    position: relative;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+  .advantage-content-right-item img {
+    display: block;
+    position: absolute;
+  }
+  .advantage-content-right-item span {
+    font-family: 'ProximaNova_bold', sans-serif;
+  }
+  .advantage-content-right-item p {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  .advantage-content-right button {
+    width: 100%;
+  }
+ 
+  .free img {
+    display: block;
+    margin: 0 auto;
+  }
+  .free #first-link {
+    margin-top: 2rem;
+  }
+  
+  .scores .scores-content nav a {
+    font-size: 1.3rem;
+  }
+  .scores .scores-content .nav-pills .nav-link.active,
+  .scores .scores-content .nav-pills .show > .nav-link {
+    font-size: 1.3rem;
+  }
+  .scores .scores-content-list-block {
+    margin-top: 4rem;
+  }
+  .scores .scores-content-list-block .scores-slider {
+    padding: 0 2rem;
+  }
+  
+  .choose .choose-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .choose .choose-header h2 + p {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .choose .choose-header .choose-header-free {
+    bottom: -0.5rem;
+    font-size: 1.4rem;
+  }
+  .choose .choose-content nav {
+    display: none;
+  }
+  .choose .choose-content-list-block-column-compare {
+    min-height: 10rem;
+  }
+  .choose .choose-content-list-block-column-compare h3 {
+    text-align: center;
+  }
+  .choose .choose-content-list-block-column-compare-bottom {
+    position: relative;
+    margin-top: 8rem;
+  }
+  .choose .choose-content-list-block-price-item h3 {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .choose .choose-content-list-block-price-item img {
+    display: block;
+    margin: 0 auto 2rem auto;
+  }
+ 
+  .contacts {
+    padding-top: 4rem;
+  }
+  .contacts .contacts-within {
+    background: #f5f5f5;
+  }
+  .contacts .contacts-within-content h2 {
+    text-align: center;
+  }
+  .contacts .contacts-within-content-right {
+    background-color: #ffffff;
+    margin-top: 1rem;
+    padding-top: 3rem;
+  }
+  .contacts .contacts-within-content-right-header {
+    text-align: center;
+  }
+  .contacts .contacts-within-content-right-info {
+    text-align: center;
+  }
+  
+  .advantage-popup-content-left img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 575px) {
+  .header h2 {
+    font-family: 'ProximaNova_bold', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+  }
+  .indent {
+    padding: 3rem 0;
+  }
+  
+  .nav-bar-row-how {
+    display: none;
+  }
+  .nav-bar-row-advantage {
+    display: none;
+  }
+  .nav-bar-row-scores {
+    display: none;
+  }
+  .nav-bar-row-partners {
+    display: none;
+  }
+  .nav-bar-row-choose {
+    display: none;
+  }
+  .nav-bar-row-contacts {
+    display: none;
+  }
+  
+  main .main-header-logo {
+    margin: 0 auto;
+  }
+  main .main-header-phone p {
+    text-align: center;
+  }
+  main .main-header-app {
+    display: flex;
+  }
+  main .main-header-app-android {
+    flex-grow: 1;
+    text-align: right;
+  }
+  main .main-header-app-apple {
+    flex-grow: 1;
+  }
+  main .main-content {
+    padding: 8rem 0;
+  }
+  main .main-content-middle h1 {
+    font-size: 2rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+  }
+  main .main-content-middle p {
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+  }
+  main .main-content-middle button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .service {
+    margin: 5rem 0 1rem 0;
+  }
+  .service-content {
+    margin: 0 1rem;
+  }
+  .service-content-block {
+    margin-bottom: 6rem;
+  }
+  .service-content-block-img img {
+    display: block;
+    margin: 0 auto;
+  }
+  .service-content-block-text {
+    font-size: 1.6rem;
+  }
+  
+  .information-text {
+    margin-bottom: 2rem;
+  }
+  .information-text p {
+    font-size: 1.6rem;
+  }
+  .information-facts h3 {
+    margin-bottom: 2rem;
+    font-size: 3.8rem;
+  }
+  
+  .advantage-content-right {
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  .advantage-content-right h3 {
+    text-align: center;
+  }
+  .advantage-content-right-item {
+    position: relative;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+  .advantage-content-right-item img {
+    display: block;
+    position: absolute;
+  }
+  .advantage-content-right-item span {
+    font-family: 'ProximaNova_bold', sans-serif;
+  }
+  .advantage-content-right-item p {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  .advantage-content-right button {
+    width: 100%;
+  }
+ 
+  .free img {
+    display: block;
+    margin: 0 auto;
+  }
+  .free #first-link {
+    margin-top: 2rem;
+  }
+ 
+  .scores .scores-content nav a {
+    font-size: 1.3rem;
+  }
+  .scores .scores-content .nav-pills .nav-link.active,
+  .scores .scores-content .nav-pills .show > .nav-link {
+    font-size: 1.3rem;
+  }
+  .scores .scores-content-list-block {
+    margin-top: 3rem;
+  }
+  .scores .scores-content-list-block .scores-slider {
+    padding: 0 2rem;
+  }
+  
+  .choose .choose-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .choose .choose-header h2 + p {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .choose .choose-header .choose-header-free {
+    display: none;
+  }
+  .choose .choose-content nav {
+    display: none;
+  }
+  .choose .choose-content-list-block-column-compare h3 {
+    text-align: center;
+  }
+  .choose .choose-content-list-block-column-compare-bottom {
+    position: relative;
+    margin-top: 8rem;
+  }
+  .choose .choose-content-list-block-price-item h3 {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .choose .choose-content-list-block-price-item img {
+    display: block;
+    margin: 0 auto 2rem auto;
+  }
+ 
+  .contacts {
+    padding-top: 2rem;
+  }
+  .contacts .contacts-within {
+    background: #f5f5f5;
+  }
+  .contacts .contacts-within-content h2 {
+    text-align: center;
+  }
+  .contacts .contacts-within-content-left {
+    margin-top: 1rem;
+  }
+  .contacts .contacts-within-content-right {
+    background-color: #ffffff;
+    margin-top: 1rem;
+    padding-top: 3rem;
+  }
+  .contacts .contacts-within-content-right-header {
+    text-align: center;
+  }
+  .contacts .contacts-within-content-right-info {
+    text-align: center;
+  }
+  
+  .background .popup .popup-content {
+    padding: 2rem 4.5rem;
+    position: relative;
+  }
+  
+  .advantage-popup {
+    width: 100%;
+  }
+  .advantage-popup-content-left img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}
